@@ -114,15 +114,6 @@ footer {
     border: 3px solid #020202;
 }
 
-.cobrinha {
-    width: 80px;
-    height: 80px;
-
-.pitch {
-    width: 80px;
-    height: 80px;
-
-
 main {
     padding: 60px 40px;
     flex: 1;
@@ -139,5 +130,6 @@ main {
     border-radius: 50px; /* bordas arredondadas */
     display: block;
 }
+
 
 
