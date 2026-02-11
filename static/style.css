@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #f88f05, #aa542c);
+    padding: 25px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #000000;
+    font-size: 1.6rem;
+}
+
+/* NAV */
+nav a {
+    color: #000000;
+    margin-left: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN */
+main {
+    padding: 50px 40px;
+    flex:1;
+}
+
+.hero {
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    max-width: 300px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #b67a21;
+}
+
+/* PROJETOS */
+.projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+/* CARD */
+.card {
+    background: rgba(253, 120, 43, 0.692);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgb(230, 6, 6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(238, 15, 15, 0.15);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: #f88f05
+    padding 20px
+    font-size 0.9rem
+    text-align center
+}
+
+.perfil {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px
+}
+
+.perfil img {
+    width: 80px;        /* tamanho ideal */
+    height: 80px;
+    border-radius: 10%; /* deixa redonda */
+    object-fit: cover;  /* corta sem deformar */
+    border: 3px solid #020202;
+}
+
+
+
+main {
+    padding: 60px 40px;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;   /* evita distorção */
+    border-radius: 50px; /* bordas arredondadas */
+    display: block;
+}
