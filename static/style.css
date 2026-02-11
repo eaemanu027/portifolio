@@ -92,8 +92,8 @@ main {
 }
 
 .cobrinha {
-     width: 400px;        
-    height: 400px;
+     width: 200px;        
+    height: 200px;
 }
 
 .pitch{
@@ -140,6 +140,7 @@ main {
     border-radius: 50px; /* bordas arredondadas */
     display: block;
 }
+
 
 
 
