@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}Início{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <img src=" {{ url_for('static', filename='img/foto.jpeg') }}" class="foto">
+    <h2>Oi, eu sou&nbsp;a Emanuella</h2>
+    <p>
+        Estudante de Tecnologia da Informação, com forte interesse em desenvolvimento de software, organização de processos e boas práticas de programação. Este espaço reúne meus projetos e reflete minha evolução contínua como desenvolvedora, sempre com foco em qualidade, eficiência e código bem estruturado.
+    </p>
+</section>
+
+<section>
+    <h2>O que eu faço:</h2>
+
+    <div class="projetos">
+        <div class="card">
+            <h3>💻 Desenvolvimento Web</h3>
+            <p>
+                Desenvolvimento de aplicações web utilizando HTML, CSS, Python e Flask, com foco em boas práticas, organização, performance e código limpo.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>📚 Estudando TI</h3>
+            <p>
+                Estou sempre aprendendo e aprimorando minhas habilidades no desenvolvimento de sistemas, buscando escrever códigos organizados, eficientes e fáceis de manter.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🚀 Projetos Pessoais</h3>
+            <p>
+                Desenvolvimento de projetos autorais como forma de prática contínua, aprendizado constante e aprimoramento técnico na área de desenvolvimento.
+            </p>
+        </div>
+    </div>
+</section>
+{% endblock %}
